@@ -1,6 +1,6 @@
 server {
-        listen   8080; ## listen for ipv4; this line is default and implied
-        #listen   [::]:8080 default ipv6only=on; ## listen for ipv6
+        listen   9999; ## listen for ipv4; this line is default and implied
+        #listen   [::]:9999 default ipv6only=on; ## listen for ipv6
         
         # This is the full path to your index file 
         root /var/www/html;
